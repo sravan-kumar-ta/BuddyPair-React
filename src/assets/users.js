@@ -1,0 +1,30 @@
+// Dummy users list (20+)
+const users = [
+    { id: 1, name: "My Story", image: "https://placehold.co/400", isMyStory: true },
+    { id: 2, name: "Selena", image: "https://placehold.co/400" },
+    { id: 3, name: "Clara", image: "https://placehold.co/400" },
+    { id: 4, name: "Fabian", image: "https://placehold.co/400" },
+    { id: 5, name: "George", image: "https://placehold.co/400" },
+    { id: 6, name: "Sophia", image: "https://placehold.co/400" },
+    { id: 7, name: "Michael", image: "https://placehold.co/400" },
+    { id: 8, name: "Isabella", image: "https://placehold.co/400" },
+    { id: 9, name: "Daniel", image: "https://placehold.co/400" },
+    { id: 10, name: "Olivia", image: "https://placehold.co/400" },
+    { id: 11, name: "Ethan", image: "https://placehold.co/400" },
+    { id: 12, name: "Ava", image: "https://placehold.co/400" },
+    { id: 13, name: "Lucas", image: "https://placehold.co/400" },
+    { id: 14, name: "Mia", image: "https://placehold.co/400" },
+    { id: 15, name: "James", image: "https://placehold.co/400" },
+    { id: 16, name: "Amelia", image: "https://placehold.co/400" },
+    { id: 17, name: "Benjamin", image: "https://placehold.co/400" },
+    { id: 18, name: "Charlotte", image: "https://placehold.co/400" },
+    { id: 19, name: "Alexander", image: "https://placehold.co/400" },
+    { id: 20, name: "Emily", image: "https://placehold.co/400" },
+    { id: 21, name: "William", image: "https://placehold.co/400" },
+    { id: 22, name: "Grace", image: "https://placehold.co/400" },
+    { id: 23, name: "Henry", image: "https://placehold.co/400" },
+    { id: 24, name: "Ella", image: "https://placehold.co/400" },
+    { id: 25, name: "David", image: "https://placehold.co/400" },
+];
+
+export default users;
