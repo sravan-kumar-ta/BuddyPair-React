@@ -4,11 +4,11 @@ import { IoNotificationsOutline } from "react-icons/io5";
 
 export default function TopNavbar() {
    return (
-      <div className=" px-4 py-3 md:shadow-md md:bg-pink-50">
+      <div className="sticky top-0 z-50 px-4 py-3 md:shadow-md bg-pink-50">
          <div className="md:w-5/6 flex items-center justify-between mx-auto">
             {/* Left - App Logo */}
             <div className="flex items-center space-x-2">
-               <span className="text-pink-950/60 text-2xl font-bold">
+               <span className="text-pink-950/60 text-2xl font-medium">
                   BuddyPair
                </span>
             </div>

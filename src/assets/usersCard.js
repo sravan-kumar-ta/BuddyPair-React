@@ -1,0 +1,88 @@
+const usersCard = [
+    {
+        id: 1,
+        name: "Sithara Nair",
+        role: "Developer, Hyderabad",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 2,
+        name: "Aarav Sharma",
+        role: "Designer, Bangalore",
+        img: "https://placehold.co/400",
+        status: "Offline",
+    },
+    {
+        id: 3,
+        name: "Meera Iyer",
+        role: "Engineer, Mumbai",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 4,
+        name: "Rahul Verma",
+        role: "Artist, Pune",
+        img: "https://placehold.co/400",
+        status: "Offline",
+    },
+    {
+        id: 5,
+        name: "Ananya Gupta",
+        role: "Writer, Delhi",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 6,
+        name: "Karan Malhotra",
+        role: "Data Scientist, Chennai",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 7,
+        name: "Priya Menon",
+        role: "Doctor, Kochi",
+        img: "https://placehold.co/400",
+        status: "Offline",
+    },
+    {
+        id: 8,
+        name: "Vikram Singh",
+        role: "Lawyer, Jaipur",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 9,
+        name: "Sneha Pillai",
+        role: "Teacher, Trivandrum",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 10,
+        name: "Rohit Shetty",
+        role: "Photographer, Goa",
+        img: "https://placehold.co/400",
+        status: "Offline",
+    },
+    {
+        id: 11,
+        name: "Divya Reddy",
+        role: "Chef, Hyderabad",
+        img: "https://placehold.co/400",
+        status: "Online",
+    },
+    {
+        id: 12,
+        name: "Arjun Das",
+        role: "Entrepreneur, Kolkata",
+        img: "https://placehold.co/400",
+        status: "Offline",
+    },
+];
+
+export default usersCard;

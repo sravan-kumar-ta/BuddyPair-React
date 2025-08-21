@@ -7,7 +7,7 @@ import { BsChat, BsChatFill } from "react-icons/bs";
 
 const BottomNavbar = () => {
    return (
-      <nav className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-5/6 md:w-2/3 bg-white py-2 rounded-full shadow-lg flex justify-around">
+      <nav className="fixed z-50 bottom-4 left-1/2 transform -translate-x-1/2 w-5/6 md:w-2/3 bg-white py-2 rounded-full shadow-lg flex justify-around">
          <NavLink
             to="/"
             end
@@ -25,7 +25,7 @@ const BottomNavbar = () => {
                )
             }
          </NavLink>
-         
+
          <NavLink
             to="/location"
             className={({ isActive }) =>
@@ -42,7 +42,7 @@ const BottomNavbar = () => {
                )
             }
          </NavLink>
-         
+
          <NavLink
             to="/users"
             className={({ isActive }) =>
@@ -59,7 +59,7 @@ const BottomNavbar = () => {
                )
             }
          </NavLink>
-         
+
          <NavLink
             to="/chat"
             className={({ isActive }) =>
