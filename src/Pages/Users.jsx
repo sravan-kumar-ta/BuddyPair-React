@@ -1,9 +1,13 @@
-import React from 'react'
+import Likes from "../Components/Users/Likes";
+import UserCards from "../Components/Users/UserCards";
 
 const Users = () => {
-  return (
-    <div>Users</div>
-  )
-}
+   return (
+      <>
+         <Likes />
+         <UserCards />
+      </>
+   );
+};
 
-export default Users
+export default Users;

@@ -1,9 +1,10 @@
 import { FaPlus } from "react-icons/fa";
 import users from "../../assets/users";
+import portraint from "../../assets/portraint.jpg";
 
 const Stories = () => {
    return (
-      <div className="flex overflow-x-auto space-x-4 px-4 py-3 max-w-6xl mx-auto no-scrollbar">
+      <div className="flex overflow-x-auto space-x-4 px-4 py-3 max-w-7xl mx-auto no-scrollbar">
          {users.map((user) => (
             <div
                key={user.id}
@@ -11,11 +12,16 @@ const Stories = () => {
             >
                <div
                   className={`relative w-16 h-16 rounded-full border-2 flex items-center justify-center
-        ${user.isMyStory ? "border-gray-300" : "border-pink-500"}`}
+                                 ${
+                                    user.isMyStory
+                                       ? "border-gray-300"
+                                       : "border-pink-500"
+                                 }`}
                >
                   <div className="w-14 h-14 rounded-full overflow-hidden">
                      <img
-                        src={user.image}
+                        // src={user.img}
+                        src={portraint}
                         alt={user.name}
                         className="w-full h-full object-cover"
                      />

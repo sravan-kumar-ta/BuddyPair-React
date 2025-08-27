@@ -1,9 +1,7 @@
-import React from 'react'
-
 const Location = () => {
-  return (
+   return (
     <div>Location</div>
-  )
-}
+   );
+};
 
-export default Location
+export default Location;

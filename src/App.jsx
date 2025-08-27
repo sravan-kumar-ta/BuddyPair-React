@@ -3,8 +3,8 @@ import Home from "./Pages/Home";
 import Location from "./Pages/Location";
 import Users from "./Pages/Users";
 import Chat from "./Pages/Chat";
-import TopNavbar from "./Components/TopNavbar";
-import BottomNavbar from "./Components/BottomNavbar";
+import TopNavbar from "./Components/Navbar/TopNavbar";
+import BottomNavbar from "./Components/Navbar/BottomNavbar";
 
 function App() {
    return (
