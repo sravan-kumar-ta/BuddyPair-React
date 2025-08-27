@@ -1,4 +1,3 @@
-import { FaBell } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { IoNotificationsOutline } from "react-icons/io5";
 

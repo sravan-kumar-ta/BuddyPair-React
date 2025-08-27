@@ -3,7 +3,7 @@ import { FiCheckCircle } from "react-icons/fi";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { IoCloseCircleOutline } from "react-icons/io5";
 
-const Notification = ({setOpen}) => {
+const Notification = ({ setOpen }) => {
    return (
       <>
          {/* Screen overlay with blur */}
@@ -13,7 +13,7 @@ const Notification = ({setOpen}) => {
          ></div>
 
          {/* Notification box */}
-         <div className="absolute top-15 left-5 right-1 md:left-auto md:right-50 md:w-xl backdrop-blur-md rounded-2xl z-40 font-sans space-y-3">
+         <div className="absolute top-15 left-5 right-1 md:left-1/2 md:right-auto md:w-xl md:transform md:-translate-x-1/2 lg:left-auto lg:right-30 lg:translate-x-0 z-40 space-y-3 rounded-2xl backdrop-blur-md font-sans">
             <div className="bg-fuchsia-950 text-white rounded-2xl p-4 shadow-lg">
                <div className="flex justify-between items-start">
                   <div>
