@@ -3,7 +3,7 @@ import { FaComment } from "react-icons/fa6";
 
 const Likes = () => {
    return (
-      <div className="flex overflow-x-auto space-x-4 px-4 py-3 max-w-7xl mx-auto no-scrollbar">
+      <div className="flex overflow-x-auto space-x-4 px-4 py-3 no-scrollbar">
          <div className="flex flex-col items-center relative no-scrollbar">
             <div className="relative w-16 h-16 rounded-full border-2 flex items-center justify-center border-pink-500">
                <div className="w-14 h-14 rounded-full overflow-hidden blur-xs">

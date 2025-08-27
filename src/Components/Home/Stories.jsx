@@ -4,7 +4,7 @@ import portraint from "../../assets/portraint.jpg";
 
 const Stories = () => {
    return (
-      <div className="flex overflow-x-auto space-x-4 px-4 py-3 max-w-7xl mx-auto no-scrollbar">
+      <div className="flex overflow-x-auto space-x-4 px-4 py-3 no-scrollbar">
          {users.map((user) => (
             <div
                key={user.id}

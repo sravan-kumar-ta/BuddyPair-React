@@ -5,7 +5,7 @@ import portraint from "../../assets/portraint.jpg";
 
 const UserCards = () => {
    return (
-      <div className="p-4 max-w-7xl mx-auto">
+      <div className="p-4 md:mx-1"> 
          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 md:gap-x-10 gap-y-6">
             {users.map((user) => (
                <div
