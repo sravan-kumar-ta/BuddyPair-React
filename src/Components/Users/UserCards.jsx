@@ -12,7 +12,7 @@ const UserCards = () => {
             {users.map((user) => (
                <div
                   key={user.id}
-                  className="relative overflow-hidden rounded-3xl custom-card border-4 border-pink-500/60 shadow-md"
+                  className="relative overflow-hidden rounded-3xl custom-card border-4 border-pink-400 shadow-md"
                >
                   {/* background image */}
                   <img
@@ -26,7 +26,7 @@ const UserCards = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
 
                   {/* Match percentage */}
-                  <span className="absolute top-0 left-1/2 -translate-x-1/2 bg-pink-500/60 text-white text-xs px-3 py-1 rounded-bl-xl rounded-br-xl whitespace-nowrap">
+                  <span className="absolute top-0 left-1/2 -translate-x-1/2 bg-pink-400 text-white text-xs px-3 py-1 rounded-bl-xl rounded-br-xl whitespace-nowrap">
                      {user.match}
                   </span>
 
